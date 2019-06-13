@@ -1,0 +1,103 @@
+body {
+  font-family: Fira Sans, "Fira Sans",
+        Fira Sans, sans-serif;
+  background-color: #F0ECEE;
+  padding: 0 20px;
+}
+
+.redText {
+  color: red;
+}
+
+ul.container {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.container a {
+  text-decoration: none
+}
+a:link {
+  color: #88898B
+}
+a:visited {
+  color: #88898B
+}
+
+button {
+  font-size: inherit;
+  background: #FF4850;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover{
+  background-color: #CCC;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #88898B
+}
+
+@media(min-width: 600px) {
+  body {
+    background-image: url("bulldog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  button {
+    width: auto;
+  }
+
+  .contactButton {
+    margin: 10px 0;
+  }
+
+  .navContainer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 70px;
+  }
+
+  .navHeader {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul.container li {
+    margin: auto 10px;
+  }
+
+  .description {
+    margin-top: 100px;
+    width: 45%;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+}
